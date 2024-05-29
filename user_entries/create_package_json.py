@@ -5,7 +5,13 @@ import os
 with open("user_data.json","r") as file:
     user_data = json.load(file)
 
-user_machine = os.getlogin()
+import os
+
+try:
+    user_machine = os.getlogin()
+except OSError:
+    user_machine = os.environ.get('USER') or os.environ.get('USERNAME') or os.environ.get('LOGNAME')
+
 json_dict = {}
 print(user_machine)
 with open("packages/company_vars.json","w") as env_file:
