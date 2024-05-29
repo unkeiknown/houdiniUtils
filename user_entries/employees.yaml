@@ -1,0 +1,49 @@
+user1:
+  url: ""
+  port: 5000
+  id: 12386
+  name: "Eric Thompson"
+  age: 22
+  department: "Technical Art"
+  role: "Technical Artist"
+  machine: "Sirius"
+
+user2:
+  url: ""
+  port: 5000
+  id: 87729
+  name: "Amy Stevens"
+  age: 30
+  department: "Global Supervision"
+  role: "Supervisor"
+  machine: "Storm"
+
+user3:
+  url: ""
+  port: 5000
+  id: 89182
+  name: "Steve Williams"
+  age: 27
+  department: "Design"
+  role: "UI Designer"
+  machine: "Scar"
+
+user4:
+  url: ""
+  port: 5000
+  id: 91281
+  name: "Amy Stevens"
+  age: 22
+  department: "Development"
+  role: "Full stack developer"
+  machine: "Binary"
+
+user5:
+  url: ""
+  port: 5000
+  id: 91191
+  name: "Key Yoshida"
+  age: 39
+  department: "FX"
+  role: "FX Artist"
+  machine: "unkeiknown"
